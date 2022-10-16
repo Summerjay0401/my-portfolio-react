@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom"
+import { Routes, Route, NavLink as Link } from "react-router-dom"
 import Home from './components/Home'
 import About from "./components/About"
 import Contact from "./components/Contact"
@@ -13,19 +13,19 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link to='/'>HOME</Link>
+            <Link to='/' className={({ isActive }) => isActive? "active": ''} end>HOME</Link>
           </li>
           <li>
-            <Link to='about'>ABOUT ME</Link>
+            <Link to='about' className={({ isActive }) => isActive? "active": ''}>ABOUT ME</Link>
           </li>
           <li>
-            <Link to='portfolio'>PORTFOLIO</Link>
+            <Link to='portfolio' className={({ isActive }) => isActive? "active": ''}>PORTFOLIO</Link>
           </li>
           <li>
-            <Link to='contact'>CONTACT ME</Link>
+            <Link to='contact' className={({ isActive }) => isActive? "active": ''}>CONTACT ME</Link>
           </li>
           <li>
-            <Link to='resume'>RESUME</Link>
+            <Link to='resume' className={({ isActive }) => isActive? "active": ''}>RESUME</Link>
           </li>
         </ul>
       </nav>
