@@ -1,6 +1,6 @@
 import { Routes, Route, NavLink as Link } from "react-router-dom"
-import Home from './components/Home'
-import About from "./components/About"
+import Home from './components/Home/Home'
+import About from "./components/About/About"
 import Contact from "./components/Contact"
 import Portfolio from "./components/Portfolio"
 import Resume from "./components/Resume"

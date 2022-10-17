@@ -1,0 +1,19 @@
+/*  ABOUT */
+
+.about_container {
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.about_subtitle {
+    margin-bottom: var(--mb-2);
+}
+
+.about_img {
+    justify-self: center;
+}
+
+.about_img img {
+    width: 200px;
+    border-radius: .5rem;
+}
