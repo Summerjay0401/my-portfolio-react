@@ -1,9 +1,10 @@
 import { Routes, Route, NavLink as Link } from "react-router-dom"
 import Home from './components/Home/Home'
 import About from "./components/About/About"
-import Contact from "./components/Contact"
-import Portfolio from "./components/Portfolio"
+import Contact from "./components/Contact/Contact"
+import Portfolio from "./components/Portfolio/Portfolio"
 import Resume from "./components/Resume"
+import Footer from "./components/Footer/Footer"
 
 import './App.css';
 
@@ -39,6 +40,7 @@ function App() {
           <Route path='resume' element={<Resume />}></Route>
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
