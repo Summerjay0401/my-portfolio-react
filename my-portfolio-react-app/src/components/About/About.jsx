@@ -26,7 +26,7 @@ const About = () => {
                 
                 <div>
                     <h2 className="about_subtitle">I am Summer Jade</h2>
-                    <p className="about_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    <p className="about_text">A registered nurse for 10 years and now an aspiring full-stack developer, currently finishing my studies at the University of Pennsylvania. Bridging the gap between the healthcare and tech industry, I aim to share my experience and provide a positive impact in improving peoples lives through coding.</p>           
                 </div>                                   
             </div>
       </section>
@@ -37,7 +37,7 @@ const About = () => {
             <div className="skills_container bd-grid">          
                 <div>
                     <h2 className="skills_subtitle">Profesional Skills</h2>
-                    <p className="skills_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <p className="skills_text">The following are the skills that I have gained throughout the course of the bootcamp.</p>
                     <div className="skills_data">
                         <div className="skills_names">
                             <img src={reactpic} alt=""/>
