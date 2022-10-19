@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "./static/css/main.2ab9b6c8.css",
-    "main.js": "./static/js/main.a8f6651b.js",
-    "static/js/787.fe039db8.chunk.js": "./static/js/787.fe039db8.chunk.js",
-    "static/media/my-pic.jpg": "./static/media/my-pic.932950d2aa1826887c9a.jpg",
-    "static/media/proj-emm.png": "./static/media/proj-emm.26c22448b38f220e12f4.png",
-    "static/media/rn.jpg": "./static/media/rn.cdab45fcb97ebf99463e.jpg",
-    "static/media/agile-reef-42699.herokuapp.com_.png": "./static/media/agile-reef-42699.herokuapp.com_.c7f8dd7023e25719deb9.png",
-    "static/media/react-icon.svg": "./static/media/react-icon.f88b9855934c64a6d80cead709a60592.svg",
-    "static/media/codepen-icon.svg": "./static/media/codepen-icon.0a8045e1dd81d2e68212448bdac6e2ea.svg",
-    "static/media/github-icon.svg": "./static/media/github-icon.44459dea8559922739914af2d7dd6788.svg",
-    "static/media/css3-icon.svg": "./static/media/css3-icon.a2c8da82eff8920316ce68b8743ff5ef.svg",
-    "static/media/node-js.svg": "./static/media/node-js.2b4170fb92b9e8f74f799b0a13a0263c.svg",
-    "static/media/html5-icon.svg": "./static/media/html5-icon.e7638e3676622c76a46ece6c46136fd4.svg",
-    "static/media/twitter-icon.svg": "./static/media/twitter-icon.65e6d7d567cb375aca8516e33bd24a3c.svg",
-    "static/media/linkedin-icon.svg": "./static/media/linkedin-icon.dc7faa5e2eec17bef94d843ff1df1519.svg",
-    "static/media/js-icon.svg": "./static/media/js-icon.c4c89593ed1e0e3dc681b04e7ba75899.svg",
-    "static/media/instragram-icon.svg": "./static/media/instragram-icon.306b547c875b852e216856ec59f02a18.svg",
-    "static/media/facebook-icon.svg": "./static/media/facebook-icon.80b8aa4633adfbca5a1994163ed88392.svg",
-    "index.html": "./index.html",
-    "main.2ab9b6c8.css.map": "./static/css/main.2ab9b6c8.css.map",
-    "main.a8f6651b.js.map": "./static/js/main.a8f6651b.js.map",
-    "787.fe039db8.chunk.js.map": "./static/js/787.fe039db8.chunk.js.map"
+    "main.css": "/my-portfolio-react/static/css/main.2ab9b6c8.css",
+    "main.js": "/my-portfolio-react/static/js/main.f299f0ac.js",
+    "static/js/787.fe039db8.chunk.js": "/my-portfolio-react/static/js/787.fe039db8.chunk.js",
+    "static/media/my-pic.jpg": "/my-portfolio-react/static/media/my-pic.932950d2aa1826887c9a.jpg",
+    "static/media/proj-emm.png": "/my-portfolio-react/static/media/proj-emm.26c22448b38f220e12f4.png",
+    "static/media/rn.jpg": "/my-portfolio-react/static/media/rn.cdab45fcb97ebf99463e.jpg",
+    "static/media/agile-reef-42699.herokuapp.com_.png": "/my-portfolio-react/static/media/agile-reef-42699.herokuapp.com_.c7f8dd7023e25719deb9.png",
+    "static/media/react-icon.svg": "/my-portfolio-react/static/media/react-icon.f88b9855934c64a6d80cead709a60592.svg",
+    "static/media/codepen-icon.svg": "/my-portfolio-react/static/media/codepen-icon.0a8045e1dd81d2e68212448bdac6e2ea.svg",
+    "static/media/github-icon.svg": "/my-portfolio-react/static/media/github-icon.44459dea8559922739914af2d7dd6788.svg",
+    "static/media/css3-icon.svg": "/my-portfolio-react/static/media/css3-icon.a2c8da82eff8920316ce68b8743ff5ef.svg",
+    "static/media/node-js.svg": "/my-portfolio-react/static/media/node-js.2b4170fb92b9e8f74f799b0a13a0263c.svg",
+    "static/media/html5-icon.svg": "/my-portfolio-react/static/media/html5-icon.e7638e3676622c76a46ece6c46136fd4.svg",
+    "static/media/twitter-icon.svg": "/my-portfolio-react/static/media/twitter-icon.65e6d7d567cb375aca8516e33bd24a3c.svg",
+    "static/media/linkedin-icon.svg": "/my-portfolio-react/static/media/linkedin-icon.dc7faa5e2eec17bef94d843ff1df1519.svg",
+    "static/media/js-icon.svg": "/my-portfolio-react/static/media/js-icon.c4c89593ed1e0e3dc681b04e7ba75899.svg",
+    "static/media/instragram-icon.svg": "/my-portfolio-react/static/media/instragram-icon.306b547c875b852e216856ec59f02a18.svg",
+    "static/media/facebook-icon.svg": "/my-portfolio-react/static/media/facebook-icon.80b8aa4633adfbca5a1994163ed88392.svg",
+    "index.html": "/my-portfolio-react/index.html",
+    "main.2ab9b6c8.css.map": "/my-portfolio-react/static/css/main.2ab9b6c8.css.map",
+    "main.f299f0ac.js.map": "/my-portfolio-react/static/js/main.f299f0ac.js.map",
+    "787.fe039db8.chunk.js.map": "/my-portfolio-react/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ab9b6c8.css",
-    "static/js/main.a8f6651b.js"
+    "static/js/main.f299f0ac.js"
   ]
 }
