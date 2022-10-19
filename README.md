@@ -1,5 +1,3 @@
-# my-portfolio-react
-
 # 20 React: React Portfolio
 
 ## Your Task
