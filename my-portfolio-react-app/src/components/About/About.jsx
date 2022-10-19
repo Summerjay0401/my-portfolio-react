@@ -1,5 +1,16 @@
 import React from 'react'
 import './About.css'
+import mypic from '../../assets/images/svg/my-pic.jpg'
+import rnpic from '../../assets/images/svg/rn.jpg'
+import csspic from '../../assets/images/svg/css3-icon.svg'
+import htmlpic from '../../assets/images/svg/html5-icon.svg'
+import jspic from '../../assets/images/svg/js-icon.svg'
+import reactpic from '../../assets/images/svg/react-icon.svg'
+import nodejspic from '../../assets/images/svg/node-js.svg'
+import mysqlpic from '../../assets/images/svg/mysql.png'
+import mongodbpic from '../../assets/images/svg/mongodb.png'
+import graphql from '../../assets/images/svg/graphql.png'
+import gitpic from '../../assets/images/svg/git.png'
 
 const About = () => {
   return (
@@ -10,7 +21,7 @@ const About = () => {
 
             <div className="about_container bd-grid">
                 <div className="about_img">
-                    <img src="./assets/images/my-pic.jpg" alt=""/>
+                    <img src={mypic} alt=""/>
                 </div>
                 
                 <div>
@@ -29,10 +40,22 @@ const About = () => {
                     <p className="skills_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
                     <div className="skills_data">
                         <div className="skills_names">
-                            <span className="skills_prefix">RN</span>
-                            <span className="skills_name">Registered Nurse</span>
+                            <img src={reactpic} alt=""/>
+                            <span className="skills_name">REACT</span>
                         </div>
-                        <div className="skills_bar skills_rn">
+                        <div className="skills_bar skills_react">
+                            
+                        </div>
+                        <div>
+                            <span className="skills_percentage">80%</span>
+                        </div>
+                    </div>
+                    <div className="skills_data">
+                        <div className="skills_names">
+                            <img src={htmlpic} alt=""/>
+                            <span className="skills_name">HTML5</span>
+                        </div>
+                        <div className="skills_bar skills_html">
 
                         </div>
                         <div>
@@ -41,44 +64,101 @@ const About = () => {
                     </div>
                     <div className="skills_data">
                         <div className="skills_names">
-                            <img src="./assets/images/svg/html5-icon.svg" alt=""/>
-                            <span className="skills_name">HTML5</span>
-                        </div>
-                        <div className="skills_bar skills_html">
-
-                        </div>
-                        <div>
-                            <span className="skills_percentage">70%</span>
-                        </div>
-                    </div>
-                    <div className="skills_data">
-                        <div className="skills_names">
-                            <img src="./assets/images/svg/css3-icon.svg" alt=""/>
+                            <img src={csspic} alt=""/>
                             <span className="skills_name">CSS3</span>
                         </div>
                         <div className="skills_bar skills_css">
                             
                         </div>
                         <div>
-                            <span className="skills_percentage">65%</span>
+                            <span className="skills_percentage">100%</span>
                         </div>
                     </div>
                     <div className="skills_data">
                         <div className="skills_names">
-                            <img src="./assets/images/svg/js-icon.svg" alt=""/>
+                            <img src={jspic} alt=""/>
                             <span className="skills_name">JAVASCRIPT</span>
                         </div>
                         <div className="skills_bar skills_js">
                             
                         </div>
                         <div>
-                            <span className="skills_percentage">10%</span>
+                            <span className="skills_percentage">60%</span>
+                        </div>
+                      </div>
+                      <div className="skills_data">
+                        <div className="skills_names">
+                            <img src={nodejspic} alt=""/>
+                            <span className="skills_name">NODE JS</span>
+                        </div>
+                        <div className="skills_bar skills_nodejs">
+                            
+                        </div>
+                        <div>
+                            <span className="skills_percentage">60%</span>
+                        </div>
+                      </div>
+                      <div className="skills_data">
+                        <div className="skills_names">
+                            <img src={mysqlpic} alt=""/>
+                            <span className="skills_name">MySQL</span>
+                        </div>
+                        <div className="skills_bar skills_mysql">    
+                        </div>
+                        <div>
+                            <span className="skills_percentage">70%</span>
+                        </div>
+                      </div>
+                      <div className="skills_data">
+                          <div className="skills_names">
+                          <img src={mongodbpic} alt=""/>
+                            <span className="skills_name">MongoDB</span>
+                        </div>
+                        <div className="skills_bar skills_mongodb">
+
+                        </div>
+                        <div>
+                            <span className="skills_percentage">70%</span>
+                        </div>
+                      </div>
+                      <div className="skills_data">
+                          <div className="skills_names">
+                          <img src={graphql} alt=""/>
+                            <span className="skills_name">GraphQL</span>
+                        </div>
+                        <div className="skills_bar skills_graphql">
+
+                        </div>
+                        <div>
+                            <span className="skills_percentage">80%</span>
+                        </div>
+                      </div>
+                      <div className="skills_data">
+                          <div className="skills_names">
+                          <img src={gitpic} alt=""/>
+                            <span className="skills_name">Git</span>
+                        </div>
+                        <div className="skills_bar skills_git">
+
+                        </div>
+                        <div>
+                            <span className="skills_percentage">80%</span>
+                        </div>
+                      </div>
+                      <div className="skills_data">
+                        <div className="skills_names">
+                            <span className="skills_prefix">RN</span>
+                            <span className="skills_name">Registered Nurse</span>
+                          </div>
+                        <div className="skills_bar skills_rn">
+                        </div>
+                        <div>
+                            <span className="skills_percentage">100%</span>
                         </div>
                     </div>
                 </div>
-                
                 <div>              
-                    <img src="./assets/images/rn.jpg" alt="" className="skills_img"/>
+                    <img src={rnpic} alt="" className="skills_img"/>
                 </div>
             </div>
         </section>

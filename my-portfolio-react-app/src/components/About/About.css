@@ -14,7 +14,7 @@
 }
 
 .about_img img {
-    width: 200px;
+    width: 500px;
     border-radius: .5rem;
 }
 
@@ -77,15 +77,15 @@ margin-right: 15px;
 }
 
 .skills_html {
-    width: 70%;
+    width: 100%;
 }
 
 .skills_css {
-    width: 65%;
+    width: 100%;
 }
 
 .skills_js {
-    width: 10%;
+    width: 60%;
 }
 
 .skills_rn {
@@ -94,4 +94,28 @@ margin-right: 15px;
 
 .skills_img {
     border-radius: .5rem;
+}
+
+.skills_react {
+    width: 80%;
+}
+
+.skills_nodejs {
+    width: 60%;
+}
+
+.skills_mysql {
+    width: 70%;
+}
+
+.skills_mongodb {
+    width: 70%;
+}
+
+.skills_graphql {
+    width: 80%;
+}
+
+.skills_git {
+    width: 80%;
 }

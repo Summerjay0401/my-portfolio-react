@@ -1,5 +1,8 @@
 import React from 'react'
 import './Footer.css'
+import fbpic from '../../assets/images/svg/facebook-icon.svg'
+import twitterpic from '../../assets/images/svg/twitter-icon.svg'
+import igpic from '../../assets/images/svg/instragram-icon.svg'
 const Footer = () => {
   return (
       <div>
@@ -8,13 +11,13 @@ const Footer = () => {
         <p className="footer_title">Summer Jade</p>
         <div className="footer_social">
             <a href="https://facebook.com/" className="footer_icon">
-                <img src="./assets/images/svg/facebook-icon.svg" alt=""/>
+                <img src={fbpic} alt=""/>
             </a>
             <a href="https://instagram.com/" className="footer_icon">
-                <img src="./assets/images/svg/instragram-icon.svg" alt=""/>
+                <img src={igpic} alt=""/>
             </a>
             <a href="https://twitter.com/" className="footer_icon">
-                <img src="./assets/images/svg/twitter-icon.svg" alt=""/>
+                <img src={twitterpic} alt=""/>
             </a>
         </div>
         <p>&#169; 2022 copyright all right reserved</p>
