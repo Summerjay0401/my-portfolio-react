@@ -5,6 +5,7 @@ import linkedin from '../../assets/images/svg/linkedin-icon.svg'
 import codepen from '../../assets/images/svg/codepen-icon.svg'
 import github from '../../assets/images/svg/github-icon.svg'
 
+
 const Home = () => {
   return (
         <section className="home bd-grid" id="home">
@@ -21,9 +22,6 @@ const Home = () => {
                 <a href="https://github.com/Summerjay0401" className="home_social-icon">
                     <img src={github} alt=""/>
                 </a>
-            </div>
-            <div className="home_img">    
-                <img src="img/profile.png" alt=""/>
             </div>
         </section>
   )
