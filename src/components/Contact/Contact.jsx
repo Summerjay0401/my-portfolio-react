@@ -14,10 +14,10 @@ const Contact = () => {
   
   const handleSubmit = () => {
     let errorsArr = [];
-    if (!name) errorsArr.push('Name is required!');
-    if (!email) errorsArr.push('Email is required!');
-    if(email && !isValidEmail(email)) errorsArr.push('Email is invalid!');
-    if (!message) errorsArr.push('Message is required!');
+    if (!name) errorsArr.push('* Name is required!');
+    if (!email) errorsArr.push('* Email is required!');
+    if(email && !isValidEmail(email)) errorsArr.push('* Email is invalid!');
+    if (!message) errorsArr.push('* Message is required!');
 
     setErrors(errorsArr);
   }
