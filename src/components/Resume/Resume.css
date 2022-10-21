@@ -1,0 +1,11 @@
+.download-resume {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.resume-tag {
+    display: flex;
+    justify-content: center;
+    color: var(--first-color);
+}

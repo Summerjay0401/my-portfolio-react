@@ -5,8 +5,6 @@ import twitterpic from '../../assets/images/svg/twitter-icon.svg'
 import igpic from '../../assets/images/svg/instragram-icon.svg'
 const Footer = () => {
   return (
-      <div>
-          {/* <!-- FOOTER --> */}
     <footer className="footer">
         <p className="footer_title">Summer Jade</p>
         <div className="footer_social">
@@ -22,8 +20,6 @@ const Footer = () => {
         </div>
         <p>&#169; 2022 copyright all right reserved</p>
     </footer>
-          
-    </div>
   )
 }
 

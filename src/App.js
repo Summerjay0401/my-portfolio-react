@@ -3,7 +3,7 @@ import Home from './components/Home/Home'
 import About from "./components/About/About"
 import Contact from "./components/Contact/Contact"
 import Portfolio from "./components/Portfolio/Portfolio"
-import Resume from "./components/Resume"
+import Resume from "./components/Resume/Resume"
 import Footer from "./components/Footer/Footer"
 
 import './App.css';
@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar/>
       <div className="main">
         {/* this defines all the routes */}

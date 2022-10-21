@@ -32,7 +32,7 @@ const Contact = () => {
                 <form action="" className="contact_form">
                     <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} className="contact_input"/>
                     <input type="mail" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} className="contact_input"/>
-                    <textarea name="" id="" cols="0" rows="10" value={message} onChange={e => setMessage(e.target.value)} className="contact_input"></textarea>
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" value={message} onChange={e => setMessage(e.target.value)} className="contact_input"></textarea>
                     <input type="button" value="Enter" onClick={handleSubmit} className="contact_button button"/>
                     <div className={errors.length > 0 ? 'visible' : ''}>
                       <ul>
