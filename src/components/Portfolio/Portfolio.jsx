@@ -2,6 +2,7 @@ import React from 'react'
 
 import proj1 from '../../assets/images/projects/agile-reef-42699.herokuapp.com_.png'
 import proj2 from '../../assets/images/projects/proj-emm.png'
+import proj3 from '../../assets/images/projects/ehr-mypulse.herokuapp.com_.png'
 
 import './Portfolio.css'
 
@@ -21,6 +22,11 @@ const Portfolio = () => {
                 <div className="work_img">
                     <a target="_blank" href="https://agile-reef-42699.herokuapp.com/" rel="noreferrer">
                         <img src={proj2} alt=""/>
+                    </a>
+                  </div>
+                  <div className="work_img">
+                    <a target="_blank" href="https://ehr-mypulse.herokuapp.com/" rel="noreferrer">
+                        <img src={proj3} alt=""/>
                     </a>
                 </div>
             </div>
