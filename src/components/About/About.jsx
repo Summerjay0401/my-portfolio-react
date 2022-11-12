@@ -47,7 +47,7 @@ const About = () => {
                             
                         </div>
                         <div>
-                            <span className="skills_percentage">80%</span>
+                            <span className="skills_percentage">90%</span>
                         </div>
                     </div>
                     <div className="skills_data">
@@ -83,7 +83,7 @@ const About = () => {
                             
                         </div>
                         <div>
-                            <span className="skills_percentage">60%</span>
+                            <span className="skills_percentage">80%</span>
                         </div>
                       </div>
                       <div className="skills_data">
@@ -95,7 +95,7 @@ const About = () => {
                             
                         </div>
                         <div>
-                            <span className="skills_percentage">60%</span>
+                            <span className="skills_percentage">80%</span>
                         </div>
                       </div>
                       <div className="skills_data">
