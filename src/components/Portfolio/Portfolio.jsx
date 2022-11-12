@@ -16,12 +16,12 @@ const Portfolio = () => {
             <div className="work_container bd-grid">
                 <div className="work_img">
                     <a target="_blank" href="https://jdanleano.github.io/Code-Monsters/" rel="noreferrer">
-                        <img src={proj1} alt=""/>
+                        <img src={proj2} alt=""/>
                     </a>
                 </div>
                 <div className="work_img">
                     <a target="_blank" href="https://agile-reef-42699.herokuapp.com/" rel="noreferrer">
-                        <img src={proj2} alt=""/>
+                        <img src={proj1} alt=""/>
                     </a>
                   </div>
                   <div className="work_img">
