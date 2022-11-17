@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.c0f5a100.css",
-    "main.js": "/my-portfolio-react/static/js/main.2f8fabac.js",
+    "main.css": "/my-portfolio-react/static/css/main.d14cdbc5.css",
+    "main.js": "/my-portfolio-react/static/js/main.49c1b54d.js",
     "static/js/787.fe039db8.chunk.js": "/my-portfolio-react/static/js/787.fe039db8.chunk.js",
     "static/media/my-pic.jpg": "/my-portfolio-react/static/media/my-pic.932950d2aa1826887c9a.jpg",
     "static/media/proj-emm.png": "/my-portfolio-react/static/media/proj-emm.26c22448b38f220e12f4.png",
+    "static/media/ehr-mypulse.herokuapp.com_.png": "/my-portfolio-react/static/media/ehr-mypulse.herokuapp.com_.d55da28c3eb8c55f5d16.png",
     "static/media/rn.jpg": "/my-portfolio-react/static/media/rn.cdab45fcb97ebf99463e.jpg",
     "static/media/agile-reef-42699.herokuapp.com_.png": "/my-portfolio-react/static/media/agile-reef-42699.herokuapp.com_.c7f8dd7023e25719deb9.png",
     "static/media/react-icon.svg": "/my-portfolio-react/static/media/react-icon.f88b9855934c64a6d80cead709a60592.svg",
@@ -19,12 +20,12 @@
     "static/media/instragram-icon.svg": "/my-portfolio-react/static/media/instragram-icon.306b547c875b852e216856ec59f02a18.svg",
     "static/media/facebook-icon.svg": "/my-portfolio-react/static/media/facebook-icon.80b8aa4633adfbca5a1994163ed88392.svg",
     "index.html": "/my-portfolio-react/index.html",
-    "main.c0f5a100.css.map": "/my-portfolio-react/static/css/main.c0f5a100.css.map",
-    "main.2f8fabac.js.map": "/my-portfolio-react/static/js/main.2f8fabac.js.map",
+    "main.d14cdbc5.css.map": "/my-portfolio-react/static/css/main.d14cdbc5.css.map",
+    "main.49c1b54d.js.map": "/my-portfolio-react/static/js/main.49c1b54d.js.map",
     "787.fe039db8.chunk.js.map": "/my-portfolio-react/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f5a100.css",
-    "static/js/main.2f8fabac.js"
+    "static/css/main.d14cdbc5.css",
+    "static/js/main.49c1b54d.js"
   ]
 }
